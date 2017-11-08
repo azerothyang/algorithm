@@ -5,7 +5,8 @@ using namespace std;
  * @param arr 数组
  * @param n   数组长度
  */
-void selectionSort(int arr[], int n){
+template<typename T>
+void selectionSort(T arr[], int n){
     for (int i = 0; i < n; ++i) {
        //寻找i到n最小的数组值的索引，并且
         int minIndex = i;
@@ -23,6 +24,9 @@ void selectionSort(int arr[], int n){
 int main() {
     int arr[5] = {3,1,7,2,5};
     selectionSort(arr, 5);
-
+    float floatArr[5] = {3.1,1.5,2.5,2.2,3};
+    selectionSort(floatArr, 5);
+    string str[4] = {"B", "C", "A", "D"};
+    selectionSort(str, 4);
     return 0;
 }

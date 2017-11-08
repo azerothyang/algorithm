@@ -123,6 +123,33 @@ algorithm/fast:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/build
 .PHONY : algorithm/fast
 
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithm"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
