@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/SortTestHelper.h">
+			<Option target="algorithm"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.cpp">
 			<Option target="algorithm"/>
 		</Unit>

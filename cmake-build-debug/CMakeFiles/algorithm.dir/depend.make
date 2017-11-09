@@ -4,6 +4,7 @@
 CMakeFiles/algorithm.dir/Student.cpp.o: ../Student.cpp
 CMakeFiles/algorithm.dir/Student.cpp.o: ../Student.h
 
+CMakeFiles/algorithm.dir/main.cpp.o: ../SortTestHelper.h
 CMakeFiles/algorithm.dir/main.cpp.o: ../Student.h
 CMakeFiles/algorithm.dir/main.cpp.o: ../main.cpp
 

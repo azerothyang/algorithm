@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/SortTestHelper.h
+cstdlib
+-
+iostream
+-
+cassert
+-
+ctime
+-
+
 /cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.cpp
 iostream
 -
@@ -21,4 +31,6 @@ iostream
 -
 Student.h
 /cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.h
+SortTestHelper.h
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/SortTestHelper.h
 
