@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.cpp
+iostream
+-
+Student.h
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.h
+
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.h
+string
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/string
+
 /cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/main.cpp
 iostream
 -
+Student.h
+/cygdrive/c/Users/Administrator/Desktop/c++/clion/algorithm/Student.h
 

@@ -6,12 +6,14 @@
 #define ALGORITHM_STUDENT_H
 
 #include "string"
-
+using namespace std;
 class Student {
 public:
-    std::string name;
+    string name;
     int score;
-    bool operator<(const Student &otherStudent);
+    friend bool operator > (const Student& student,const Student &otherStudent);
+    friend bool operator <(const Student &student,const Student &otherStudent);
+    friend ostream& operator<<(ostream &os, const Student &student);
 };
 
 

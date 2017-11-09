@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Student.h"
 using namespace std;
 /**
  * 选择排序
@@ -28,5 +29,7 @@ int main() {
     selectionSort(floatArr, 5);
     string str[4] = {"B", "C", "A", "D"};
     selectionSort(str, 4);
+    Student stu[4] = {{"D", 90}, {"C", 100}, {"B", 95}, {"A", 95}};
+    selectionSort(stu, 4);
     return 0;
 }
